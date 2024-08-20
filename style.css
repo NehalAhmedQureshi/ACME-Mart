@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=The+Nautigal&display=swap');
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+
+
+/* Variables classes */
+:root{
+
+    --red:rgb(229,48,45);
+    --blue: rgb(51,107,152);
+    --gray:rgb(88, 87, 87);
+}
+
+
+/* Utility classes */
+.flex{
+
+    display: flex;
+
+}
+
+.container{
+
+    margin-inline: 50px;
+
+}
+
+.center{
+
+    text-align: center;
+}
+
+
+/* Styling of Header is here */
+.row{
+
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid rgb(7, 7, 7);
+    /* box-shadow: 0px -10px 10px 10px black; */
+}
+
+.row-leftSide-links ul{
+
+    list-style: none;
+    gap: 60px;
+
+}
+
+.row-leftSide-links ul a{
+
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 1.1rem;
+    font-size: 600;
+    transition: 0.2s ease;
+}
+
+.row-leftSide-links ul a:hover{
+
+    color: var(--red);
+    cursor: pointer;
+
+}
+
+.row-left-side{
+
+    justify-content: space-between;
+    width: 80%;
+}
+
+.row-leftSide-icons i{
+
+    margin-inline: 15px;
+    font-size: 1.2rem;
+    color: var(--blue);
+    transition: 0.2s ease;
+}
+
+.row-leftSide-icons i:hover{
+
+    color: var(--red);
+    cursor: pointer;
+
+}
+.banner-header{
+
+    background-image: url(./assets/header-banner.jpg);
+    height: 500px;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 40px; */
+    text-align: center;
+}
+
+.banner-header h1{
+
+    font-size: 3rem;
+    /* font-weight: lighter; */
+}
+
+.banner-header p{
+
+    font-size: 1.2rem;
+    margin-block:20px 40px;
+    color: rgb(82, 80, 80);
+
+
+}
+
+.banner-header nav{
+
+    height: 55px;
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+}
+
+.search input{
+
+    border: none;
+    background: transparent;
+}
+
+
+
+
+
+/* Styling of three-row  is here */
+.three-row{
+
+    margin-block: 70px 40px;
+    justify-content: space-between;
+}
+
+.three-img{
+
+    flex-basis: 32%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.three-img img{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+/* Styling of categories-section  is here */
+.categories-section h2{
+
+    text-align: center;
+    margin-block: 30px;
+    font-size: 2rem;
+
+}
+
+.categories-rows{
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.category-box{
+
+    width: 315px;
+    height: 65px;
+    padding: 15px 21px;
+    box-shadow: 0px 0px 5px 1px rgba(220, 220, 220, 0.541);
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.category-box:hover .category-img{
+
+    transform: scale(1.2);
+    
+}
+
+.category-box:hover .arrow-icon{
+
+    transform: translateX(5px);
+    
+}
+
+.category-box p{
+
+    flex-grow: 1;
+    /* margin-left: 15px; */
+}
+
+.category-img{
+
+    width: 36px;
+    height: 36px;
+    transition: 0.3s ease;
+    
+}
+
+.category-img img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.arrow-icon{
+
+    /* margin-left: 15px; */
+    color: gray;
+    transition: 0.3s ease;
+
+}
+
+
+
+
+
+
+
+
+
+/* Styling of items-section  is here */
+.items-header{
+
+    margin-block: 60px 50px;
+    /* background-color: wheat; */
+
+}
+
+.items-header h2{
+
+    font-size: 1.5rem;
+}
+
+.items-header>p{
+
+    color: var(--gray);
+    margin-block: 20px 40px;
+
+}
+
+.items_R>p{
+
+    color: var(--gray);
+
+}
+
+.items_L-R{
+
+    justify-content: space-between;
+}
+
+select{
+
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/* Styling of items-boxes  is here/ and Also for Tag items */
+.items-boxes{
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.item-box{
+
+    width: 300px;
+    height: 315px;
+    box-shadow: 0px 0px 5px 1px rgba(220, 220, 220, 0.575);
+    border-radius: 5px;
+    transition: 0.3s ease;
+    background-color: white;
+}
+
+del{
+
+    color: var(--red);
+    font-size: 0.9rem;
+    padding-right: 5px;
+
+}
+
+.item-box:hover{
+
+    box-shadow: 0px 0px 5px 5px rgba(220, 220, 220, 0.575);
+    
+}
+.item-img{
+
+    background-image: url(./assets/box-1-FGLL.png);
+    background-size: cover;
+    background-position: center;
+    height: 190px;
+    position: relative;
+}
+
+.plus{
+
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    background-color: var(--blue);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+.plus:hover{
+
+    background-color: var(--red);
+
+}
+
+.tag{
+
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: var(--blue);
+    border: none;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.tag-two{
+
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: var(--red);
+    border: none;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.item-discription{
+
+    padding: 20px 15px 25px;
+
+}
+
+.item-discription .price{
+
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.discription{
+
+    color: var(--blue);
+    transition: 0.1s ease;
+    
+}
+
+.discription:hover{
+
+    color: var(--red);
+    cursor: pointer;
+
+}
+
+.load-more{
+
+    margin-block: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button:hover{
+
+    background-color: var(--red);
+
+}
+
+.button{
+
+    padding: 13px 25px;
+    background-color: var(--blue);   
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+
+
+.display{
+
+    display: none;
+}
+
+/* 
+.load-more button:visited .display{
+
+    display: visible;
+
+} */
+
+
+
+
+/* Styling of banner-bottom  is here */
+.bottom-banner{
+
+    height: 300px;
+    justify-content: space-between;
+    /* align-items: center; */
+    background: rgba(236, 235, 235, 0.911);
+    justify-content: baseline;
+    position: relative;
+    margin-block: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px gainsboro;
+
+}
+
+.text-bottom-banner{
+
+    flex-basis: 66%;
+    padding-left: 50px;
+    background-image: url(https://wpthemes.themehunk.com/organic-food/wp-content/uploads/sites/253/2021/10/image-10.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: right;
+    padding-top: 50px;
+}
+
+.bottom-banner h2{
+
+    font-size: 1.7rem;
+}
+
+.bottom-banner p{
+
+    color: var(--gray);
+    line-height: 1.5rem;
+    margin-block: 30px;
+
+}
+
+/* .bottom-banner button{
+
+
+} */
+
+.img-bottom-banner img{
+
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}

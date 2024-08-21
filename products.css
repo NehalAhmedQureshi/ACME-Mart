@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=The+Nautigal&display=swap');
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+::selection{
+
+    background-color: var(--blue);
+    color: white;
+}
+
+
+
+
+
+
+/* Variables classes */
+:root{
+
+    --red:rgb(229,48,45);
+    --blue: rgb(51,107,152);
+    --gray:rgb(88, 87, 87);
+}
+
+
+/* Utility classes */
+.flex{
+
+    display: flex;
+
+}
+
+.container{
+
+    margin-inline: 50px;
+
+}
+
+.center{
+
+    text-align: center;
+}
+
+
+/* Styling of Header is here */
+.row{
+
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-around;
+    /* border-bottom: 3px solid rgb(7, 7, 7); */
+    box-shadow: 0px -10px 15px 5px black;
+}
+
+.logo img{
+
+    width: 170px;
+}
+
+.row-leftSide-links ul{
+
+    list-style: none;
+    gap: 60px;
+
+}
+
+.row-leftSide-links ul a{
+
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 1.1rem;
+    font-size: 600;
+    transition: 0.2s ease;
+}
+
+.row-leftSide-links ul a:hover{
+
+    color: var(--red);
+    cursor: pointer;
+
+}
+
+.row-left-side{
+
+    justify-content: space-between;
+    width: 80%;
+}
+
+.row-leftSide-icons i{
+
+    margin-inline: 15px;
+    font-size: 1.2rem;
+    color: var(--blue);
+    transition: 0.2s ease;
+}
+
+.row-leftSide-icons i:hover{
+
+    color: var(--red);
+    cursor: pointer;
+
+}
+.banner-header{
+
+    background-image: url(./assets/header-banner.jpg);
+    height: 300px;
+    margin-top: 80px;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 40px; */
+    text-align: center;
+}
+
+.banner-header h1{
+
+    font-size: 3rem;
+    /* font-weight: lighter; */
+}
+
+.banner-header p{
+
+    font-size: 1.2rem;
+    margin-block:40px;
+    color:black;
+
+
+}
+
+.banner-header span{
+
+    margin-inline: 10px;
+}
+
+.banner-header a{
+
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: 400;
+    /* margin-inline: 10px; */
+}
+
+.banner-header a i{
+
+    font-size: 1.1rem;
+    /* margin-right: 4px; */
+}
+
+.banner-header a:hover{
+
+    color: black;
+}

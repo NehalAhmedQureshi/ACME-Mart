@@ -112,7 +112,7 @@
 }
 .banner-header{
 
-    background-image: url(./assets/header-banner.jpg);
+    background-image: url(./assets/product-banner.jpg);
     height: 300px;
     margin-top: 80px;
     background-size: cover;
@@ -161,3 +161,397 @@
 
     color: black;
 }
+
+
+
+
+
+
+/* Styling of items-section  is here */
+.items-header{
+
+    margin-block: 60px 50px;
+    /* background-color: wheat; */
+
+}
+
+.items-header h2{
+
+    font-size: 1.5rem;
+}
+
+.items-header>p{
+
+    color: var(--gray);
+    margin-block: 20px 40px;
+
+}
+
+.items_R>p{
+
+    color: var(--gray);
+
+}
+
+.items_L-R{
+
+    justify-content: space-between;
+}
+
+.items_R select{
+
+    border: 1px solid rgba(11, 73, 167, 0.158);
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.items_R select:hover{
+
+    border-color: var(--red);
+}
+
+
+
+
+
+
+
+/* Styling of items-boxes  is here/ and Also for Tag items */
+.items-boxes{
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.item-box{
+
+    width: 300px;
+    height: 315px;
+    box-shadow: 0px 0px 5px 1px rgba(220, 220, 220, 0.575);
+    border-radius: 5px;
+    transition: 0.3s ease;
+    background-color: white;
+}
+
+del{
+
+    color: var(--red);
+    font-size: 0.9rem;
+    padding-right: 5px;
+
+}
+
+.item-box:hover{
+
+    box-shadow: 0px 0px 5px 5px rgba(220, 220, 220, 0.575);
+    
+}
+.item-img{
+
+    background-image: url(./assets/box-1-FGLL.png);
+    background-size: cover;
+    background-position: center;
+    height: 190px;
+    position: relative;
+}
+
+.plus{
+
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    background-color: var(--blue);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+.plus:hover{
+
+    background-color: var(--red);
+
+}
+
+.tag{
+
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: var(--blue);
+    border: none;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.tag-two{
+
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: var(--red);
+    border: none;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.item-discription{
+
+    padding: 20px 15px 25px;
+
+}
+
+.item-discription .price{
+
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.discription{
+
+    color: var(--blue);
+    transition: 0.1s ease;
+    
+}
+
+.discription:hover{
+
+    color: var(--red);
+    cursor: pointer;
+
+}
+
+.load-more{
+
+    margin-block: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button:hover{
+
+    background-color: var(--red);
+
+}
+
+.button{
+
+    padding: 13px 25px;
+    background-color: var(--blue);   
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* Styling of footer-banner  is here */
+.footer-banner{
+
+    height: 400px;
+    background-image: url(https://borobazar.redq.io/minimal/wp-content/uploads/sites/4/2021/10/Banner3.png);
+    background-size: cover;
+}
+
+.footer-banner-text{
+
+    width: 45%;
+    padding: 70px 30px 10px;
+}
+
+.footer-banner-text h2{
+
+    font-size: 2.3rem;
+}
+
+.footer-banner-text p{
+
+    color: var(--gray);
+    margin-block: 30px 40px;
+    line-height: 2rem;
+}
+
+.footer-banner-text button{
+
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+
+
+/* Styling of footer-details  is here */
+.footer-details{
+
+    padding-block:50px 20px;
+    position: relative;
+    /* background: wheat; */
+}
+
+.footer-details .logo{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-details-boxes{
+
+    justify-content: space-between;
+    gap: 70px;
+    padding-block:40px 60px;
+}
+
+.footer-details-box{
+
+    flex-basis: 18%;
+}
+
+
+.footer-details-box h3{
+
+    margin-bottom: 20px;
+
+}
+
+.footer-details-box p{
+
+    margin-bottom: 20px;
+    color: var(--gray);
+    line-height: 1.6rem;
+    font-size: 0.96rem;
+}
+
+.footer-details-icons{
+
+    gap: 20px;
+    color: var(--blue);
+    font-size: 1.3rem;
+    transition: 0.2s ease;
+
+}
+
+.footer-details-icons i:hover{
+
+    color: var(--red);
+    cursor: pointer;
+
+}
+
+.email-address{
+
+    border: 1px solid var(--blue);
+    padding:7px 10px;
+    width: 230px;
+    border-radius: 4px;
+    
+}
+
+
+.email-address:hover{
+
+    border-color: var(--red);
+    border-width: 2px;
+
+}
+
+.email-address:hover span i{
+
+    color: var(--red);
+
+}
+.email-address input{
+
+    border: none;
+    flex-grow: 1;
+    margin-right: 10px;
+    padding-block: 5px;
+    color: var(--blue);
+    
+}
+
+/* 
+.email-address input:focus{
+
+    border: none!important;
+
+} */
+
+.email-address span i{
+
+    color: var(--blue);
+}
+
+.email-address input::placeholder{
+
+    font-size: 0.95rem;
+}
+
+.owner {
+
+    text-align: center;
+    padding: 10px;
+}
+
+.owner p{
+
+    color: var(--gray);
+    padding-top: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.owner a{
+
+    text-decoration-color: var(--blue);
+}
+
+.owner a:hover{
+
+    text-decoration-color: var(--red);
+}
+
+.owner em{
+
+    color: var(--blue);
+    
+}
+
+.owner em:hover{
+
+    color: var(--red);
+    cursor: pointer;
+    
+}
+

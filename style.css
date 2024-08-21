@@ -263,6 +263,12 @@ nav .search{
     /* margin-left: 15px; */
 }
 
+.category-box p a{
+
+    text-decoration: none;
+    color: black;
+}
+
 .category-img{
 
     width: 36px;
@@ -752,7 +758,7 @@ del{
 .email-address{
 
     border: 1px solid var(--blue);
-    padding: 10px;
+    padding:7px 10px;
     width: 230px;
     border-radius: 4px;
     

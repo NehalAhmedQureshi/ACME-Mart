@@ -510,7 +510,7 @@ del{
 .bottom-banner{
 
     height: 350px;
-    background-image: url(https://borobazar.redq.io/standard/wp-content/uploads/sites/5/2021/12/Banner-2.webp);
+    background-image: url(./assets/bottom-banner);
     background-size: cover;
     justify-content: space-between;
     align-items: center;
@@ -662,7 +662,7 @@ del{
 .footer-banner{
 
     height: 400px;
-    background-image: url(https://borobazar.redq.io/minimal/wp-content/uploads/sites/4/2021/10/Banner3.png);
+    background-image: url(./assets/footer-banner.png);
     background-size: cover;
 }
 

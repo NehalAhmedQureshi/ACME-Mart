@@ -8,6 +8,12 @@
 
 }
 
+::selection{
+
+    background-color: var(--blue);
+    color: white;
+}
+
 
 
 
@@ -42,12 +48,16 @@
 /* Styling of Header is here */
 .row{
 
+    width: 100%;
     height: 90px;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
     background-color: rgb(255, 255, 255);
     align-items: center;
     justify-content: space-around;
-    border-bottom: 3px solid rgb(7, 7, 7);
-    /* box-shadow: 0px -10px 10px 10px black; */
+    /* border-bottom: 3px solid rgb(7, 7, 7); */
+    box-shadow: 0px -10px 15px 5px black;
 }
 
 
@@ -98,6 +108,7 @@
 
     background-image: url(./assets/header-banner.jpg);
     height: 500px;
+    margin-top: 90px;
     background-size: cover;
     flex-direction: column;
     align-items: center;
@@ -132,10 +143,24 @@
     padding-inline: 30px;
 }
 
+nav .search{
+
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
 .search input{
 
     border: none;
     background: transparent;
+    width: 100%;
+    padding-block: 5px;
+    
+}
+
+.search input::placeholder{
+
+    font-size: 1rem;
 }
 
 
@@ -143,24 +168,37 @@
 
 
 /* Styling of three-row  is here */
+.three-section{
+
+    padding-block: 40px 20px;
+}
 .three-row{
 
-    margin-block: 70px 40px;
     justify-content: space-between;
 }
 
-.three-img{
+.three-section-box{
 
+    /* background-color: wheat; */
     flex-basis: 32%;
-    height: 250px;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
-.three-img img{
+.three-section-box img{
 
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
+    height: 135px;
+}
+
+.three-section-text{
+
+    padding: 20px 16px;
+
+}
+
+.three-section-text p{
+
+    margin-top: 10px;
+    color: var(--gray);
 }
 
 
@@ -708,6 +746,9 @@ del{
 
     border: none;
     flex-grow: 1;
+    margin-right: 10px;
+    padding-block: 5px;
+    color: var(--blue);
     
 }
 

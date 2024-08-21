@@ -50,6 +50,7 @@
     /* box-shadow: 0px -10px 10px 10px black; */
 }
 
+
 .row-leftSide-links ul{
 
     list-style: none;
@@ -456,18 +457,22 @@ del{
 /* Styling of banner-bottom  is here */
 .bottom-banner{
 
-    height: 300px;
+    height: 350px;
+    background-image: url(https://borobazar.redq.io/standard/wp-content/uploads/sites/5/2021/12/Banner-2.webp);
+    background-size: cover;
     justify-content: space-between;
-    /* align-items: center; */
-    background: rgba(236, 235, 235, 0.911);
-    justify-content: baseline;
-    position: relative;
+    align-items: center;
+    text-align: center;
+    color: white;
+    /* background: rgba(236, 235, 235, 0.911); */
+    justify-content: center;
+    /* position: relative; */
     margin-block: 50px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 1px gainsboro;
 
 }
-
+/* 
 .text-bottom-banner{
 
     flex-basis: 66%;
@@ -477,16 +482,16 @@ del{
     background-size: 300px;
     background-position: right;
     padding-top: 50px;
-}
+} */
 
 .bottom-banner h2{
 
-    font-size: 1.7rem;
+    font-size: 2.7rem;
 }
 
 .bottom-banner p{
 
-    color: var(--gray);
+    /* color: var(--gray); */
     line-height: 1.5rem;
     margin-block: 30px;
 
@@ -503,3 +508,253 @@ del{
     bottom: 0px;
     right: 30px;
 }
+
+
+
+
+
+
+
+
+
+/* Styling of three-collections  is here */
+.three-collections{
+
+    margin-block: 70px;
+
+}
+
+.three-collections-header{
+
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.three-collections-header h2{
+
+    font-size: 2.3rem;
+}
+
+.three-collections-header p{
+
+    color: var(--gray);
+    margin-top: 20px;
+    /* font-size: 0.9rem; */
+}
+
+.three-collections-boxes{
+
+    justify-content: space-between;
+
+}
+
+.three-collection{
+
+    width: 32%;
+    height: 320px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px gainsboro;
+
+}
+
+.three-collection img{
+
+    width: 100%;
+    height: 210px;
+    border-radius: 5px;
+}
+
+.three-collection-text{
+
+    padding: 20px;
+
+}
+
+.three-collection-text p{
+
+    color: var(--gray);
+    padding-top: 10px;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+/* Styling of footer-banner  is here */
+.footer-banner{
+
+    height: 400px;
+    background-image: url(https://borobazar.redq.io/minimal/wp-content/uploads/sites/4/2021/10/Banner3.png);
+    background-size: cover;
+}
+
+.footer-banner-text{
+
+    width: 45%;
+    padding: 70px 30px 10px;
+}
+
+.footer-banner-text h2{
+
+    font-size: 2.3rem;
+}
+
+.footer-banner-text p{
+
+    color: var(--gray);
+    margin-block: 30px 40px;
+    line-height: 2rem;
+}
+
+.footer-banner-text button{
+
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+
+
+/* Styling of footer-details  is here */
+.footer-details{
+
+    padding-bottom: 20px;
+    position: relative;
+    /* background: wheat; */
+}
+
+.footer-details .logo{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-details-boxes{
+
+    justify-content: space-between;
+    gap: 70px;
+    padding-bottom: 60px;
+}
+
+.footer-details-box{
+
+    flex-basis: 18%;
+}
+
+
+.footer-details-box h3{
+
+    margin-bottom: 20px;
+
+}
+
+.footer-details-box p{
+
+    margin-bottom: 20px;
+    color: var(--gray);
+    line-height: 1.6rem;
+    font-size: 0.96rem;
+}
+
+.footer-details-icons{
+
+    gap: 20px;
+    color: var(--blue);
+    font-size: 1.3rem;
+    transition: 0.2s ease;
+
+}
+
+.footer-details-icons i:hover{
+
+    color: var(--red);
+    cursor: pointer;
+
+}
+
+.email-address{
+
+    border: 1px solid var(--blue);
+    padding: 10px;
+    width: 230px;
+    border-radius: 4px;
+    
+}
+
+
+.email-address:hover{
+
+    border-color: var(--red);
+    border-width: 2px;
+
+}
+
+.email-address:hover span i{
+
+    color: var(--red);
+
+}
+.email-address input{
+
+    border: none;
+    flex-grow: 1;
+    
+}
+
+.email-address span i{
+
+    color: var(--blue);
+}
+
+.email-address input::placeholder{
+
+    font-size: 0.95rem;
+}
+
+.owner {
+
+    text-align: center;
+    padding: 10px;
+}
+
+.owner p{
+
+    color: var(--gray);
+    padding-top: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.owner a{
+
+    text-decoration-color: var(--blue);
+}
+
+.owner a:hover{
+
+    text-decoration-color: var(--red);
+}
+
+.owner em{
+
+    color: var(--blue);
+    
+}
+
+.owner em:hover{
+
+    color: var(--red);
+    cursor: pointer;
+    
+}
+

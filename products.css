@@ -448,13 +448,14 @@ del{
 
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 70px;
+    /* gap: 70px; */
     padding-block:40px 60px;
 }
 
 .footer-details-box{
 
     flex-basis: 18%;
+    text-align: center;
 }
 
 
@@ -707,6 +708,7 @@ del{
     .footer-details-box {
 
         flex-basis: 40%;
+        text-align: left;
 
     }
 
@@ -915,6 +917,7 @@ del{
     .footer-details-box {
 
         flex-basis: 80%;
+        text-align: left;
 
     }
 
